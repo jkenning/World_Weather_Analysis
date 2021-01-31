@@ -24,7 +24,7 @@ The analysis used to build the weather database can be found [here](https://gith
 - Using an API call on OpenWeatherMap, a request for weather data was run for each city, parsing the JSON and retrieving data.
 - The scraped data was converted into a dataframe and exported as [WeatherPy_Database.csv](https://github.com/jkenning/World_Weather_Analysis/blob/main/Weather_Database/WeatherPy_Database.csv).
 
-[](https://github.com/jkenning/World_Weather_Analysis/blob/main/Weather_Database/Weather_database_dataframe.png)
+![](https://github.com/jkenning/World_Weather_Analysis/blob/main/Weather_Database/Weather_database_dataframe.png)
 
 Figure 1. Example of retrieved weather data
 
@@ -32,7 +32,7 @@ Figure 1. Example of retrieved weather data
 
 Using an input range for user's temperature preferences on the WeatherPy data, requests to Google's Maps and Places API was able to search for hotels within 5000 m of the city co-ordinates. A marker layer was then created for each city location on the map, with hotel and current weather information (see [Vacation_Search.ipynb](https://github.com/jkenning/World_Weather_Analysis/blob/main/Vacation_Search/Vacation_Search.ipynb)).
 
-[](https://github.com/jkenning/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png)
+![](https://github.com/jkenning/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png)
 
 Figure 2. Map showing worldwide destinations with travel information
 
@@ -40,11 +40,11 @@ Figure 2. Map showing worldwide destinations with travel information
 
 Google Map's Directions API was used to generate a possible travel itinerary. As an example, the app was able to generate a travel route between four cities in the south-eastern United States that could represent a customer's travel itinerary for the region (see [Vacation_Itinerary.ipynb](https://github.com/jkenning/World_Weather_Analysis/blob/main/Vacation_Itinerary/Vacation_Itinerary.ipynb)).
 
-[](https://github.com/jkenning/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.png)
+![](https://github.com/jkenning/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.png)
 
 Figure 3. Map showing the travel route from the example itinerary
 
-[](https://github.com/jkenning/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_markers.png)
+![](https://github.com/jkenning/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_markers.png)
 
 Figure 4. Map showing the travel itinerary locations with markers
 
