@@ -44,7 +44,7 @@ Google Map's Directions API was used to generate a possible travel itinerary. As
 
 Figure 3. Map showing the travel route from the example itinerary
 
-![](https://github.com/jkenning/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_markers.png)
+![](https://github.com/jkenning/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map_markers.png)
 
 Figure 4. Map showing the travel itinerary locations with markers
 
